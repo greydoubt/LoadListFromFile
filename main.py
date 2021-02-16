@@ -1,7 +1,7 @@
 # sean.mcwillie @
 # university of maine 
 
-# Given a file of length L, extract M number of features, each having Nx number of coordinate pairs. Create a list that is composed of atomic coordinates as cartesian pairs in an ordered list, associated with each Feature.
+# Given a file of length L, extract M number of features, each having a unique number, N, of coordinate pairs. Create a list that is composed of atomic coordinates as cartesian pairs in an ordered list, associated with each Feature.
 
 from ast import literal_eval #allows loading a list from a file with brackets intact
 
