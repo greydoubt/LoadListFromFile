@@ -39,7 +39,7 @@ with open(file_name) as f:
         if count % 2 == 0: 
           mainlist.append([list(literal_eval(line))])
 
-mainlist.pop(0) # this gets rid of the empty sub-list that we appended to
+#mainlist.pop(0) # this gets rid of the empty sub-list that we appended to
 
 # test statements:
 print("Examples:")
